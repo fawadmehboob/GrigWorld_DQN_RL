@@ -182,6 +182,9 @@ torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
 
 5x5 Grid:
 Converged to average rewards ~9.9 after 1000–3000 episodes, indicating the agent reaches (4, 4) in ~8–10 steps. The animation shows the optimal path:
+<h1 align="center">
+<img src="docs/agent.gif" alt="Matrix Equation" width="40%" />
+</h1>
 
 The reward convergence is shown in the following figure:
 
